@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Salga.ServiceAgents.Converters
+namespace Toolbox.Json.Converters
 {
     public class SingleValueArrayConverter<T> : JsonConverter
     {

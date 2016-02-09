@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Salga.ServiceAgents.Converters
+namespace Toolbox.Json.Converters
 {
     public class NullStringConverter : JsonConverter
     {
