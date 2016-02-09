@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Salga.UnitTests.JsonConverterTests
+namespace Toolbox.Json.UnitTests.Converters
 {
     public class NullStringConverterTests
     {
