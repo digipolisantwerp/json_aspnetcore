@@ -1,27 +1,27 @@
 {
-	"version": "1.0.0",
-	"description": "json helper classes.",
-	"authors": [ "Koen Stroobants" ],
-	"tags": [ "" ],
-	"projectUrl": "",
-	"licenseUrl": "",
-	"dependencies": {
-		
-	},
-	"frameworks": {
-		"dnx451": { }
-	},
-	"exclude": [
-		"node_modules",
-		"bower_components",
-		".grunt"
-	],
+  "version": "1.0.0",
+  "description": "json helper classes.",
+  "authors": [ "digipolis.be" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "Newtonsoft.Json": "7.0.1"
+  },
+  "frameworks": {
+    "dnx451": { }
+  },
+  "exclude": [
+    "node_modules",
+    "bower_components",
+    ".grunt"
+  ],
     "publishExclude": [
         "node_modules",
-		"bower_components",
-		"**.xproj",
-		"**.user",
-		"**.vspscc"
+    "bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
     ]
 }
 
