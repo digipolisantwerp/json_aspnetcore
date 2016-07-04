@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "description": "json helper classes.",
+  "authors": [ "digipolis.be" ],
+  "packOptions": {
+    "tags": [ "Web", "Toolbox", "Json" ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/digipolisantwerp/json_aspnetcore"
+    },
+    "projectUrl": "https://github.com/digipolisantwerp/json_aspnetcore",
+    "licenseUrl": "https://github.com/digipolisantwerp/json_aspnetcore/LICENSE.txt"
+  },
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "Newtonsoft.Json": "9.0.1"
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
+

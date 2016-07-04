@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Toolbox.Json.Converters
+namespace Digipolis.Json.Converters
 {
     public class SingleValueArrayConverter<T> : JsonConverter
     {
