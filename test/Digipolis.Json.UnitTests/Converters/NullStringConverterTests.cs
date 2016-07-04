@@ -1,12 +1,12 @@
 ﻿using Newtonsoft.Json;
-using Toolbox.Json.Converters;
+using Digipolis.Json.Converters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Toolbox.Json.UnitTests.Converters
+namespace Digipolis.Json.UnitTests.Converters
 {
     public class NullStringConverterTests
     {

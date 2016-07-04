@@ -1,10 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E44A7B24-0046-63F5-F159-25BD279CB76A}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		LICENSE.txt = LICENSE.txt
 		nuget.config = nuget.config
 	EndProjectSection
 	ProjectSection(FolderGlobals) = preProject
@@ -15,9 +16,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D6713D03-444
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3DC039B8-2E0D-6777-0BCD-3C8D95D5B02E}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Toolbox.Json", "src\Toolbox.Json\Toolbox.Json.xproj", "{70FCA4C0-6995-4959-F74A-91F91306F8BD}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Digipolis.Json", "src\Digipolis.Json\Digipolis.Json.xproj", "{70FCA4C0-6995-4959-F74A-91F91306F8BD}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Toolbox.Json.UnitTests", "test\Toolbox.Json.UnitTests\Toolbox.Json.UnitTests.xproj", "{9471F2FC-791E-81BD-8E88-9221F764CD2B}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Digipolis.Json.UnitTests", "test\Digipolis.Json.UnitTests\Digipolis.Json.UnitTests.xproj", "{9471F2FC-791E-81BD-8E88-9221F764CD2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

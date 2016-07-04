@@ -17,7 +17,7 @@ To add the toolbox to a project, you add the package to the project.json :
 
 ``` json 
 "dependencies": {
-    "Toolbox.Json":  "1.0.0"
+    "Digipolis.Json":  "2.0.0"
  }
 ``` 
 
