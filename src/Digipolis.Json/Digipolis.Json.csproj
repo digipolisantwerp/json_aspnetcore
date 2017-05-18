@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>json helper classes.</Description>
+    <VersionPrefix>3.0.0</VersionPrefix>
+    <Authors>digipolis.be</Authors>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <AssemblyName>Digipolis.Json</AssemblyName>
+    <PackageId>Digipolis.Json</PackageId>
+    <PackageTags>Web;Toolbox;Json</PackageTags>
+    <PackageProjectUrl>https://github.com/digipolisantwerp/json_aspnetcore</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/digipolisantwerp/json_aspnetcore/LICENSE.txt</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/digipolisantwerp/json_aspnetcore</RepositoryUrl>
+    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+</Project>

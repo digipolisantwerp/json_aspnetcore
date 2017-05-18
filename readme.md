@@ -13,11 +13,19 @@ json helper classes
 
 ## Installation
 
-To add the toolbox to a project, you add the package to the project.json :
+To add the toolbox to a project, you add the package to the csproj project file:
+
+```xml
+  <ItemGroup>
+    <PackageReference Include="Digipolis.Json" Version="3.0.0" />
+  </ItemGroup>
+``` 
+
+or if your project still works with project.json :
 
 ``` json 
 "dependencies": {
-    "Digipolis.Json":  "2.0.0"
+    "Digipolis.Json":  "3.0.0"
  }
 ``` 
 
